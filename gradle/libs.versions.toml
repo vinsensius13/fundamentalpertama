@@ -1,0 +1,74 @@
+[versions]
+accompanistSwiperefresh = "0.30.1"
+agp = "8.5.2"
+coilComposeVersion = "2.3.0"
+coilGif = "2.3.0"
+compose = "1.0.0-beta01"
+constraintlayoutCompose = "1.0.1"
+converterGson = "2.9.0"
+jsoup = "1.16.1"
+datastorePreferences = "1.1.1"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.6"
+activityCompose = "1.9.3"
+composeBom = "2024.10.00"
+navigationComposeVersion = "2.8.3"
+navigationRuntimeKtx = "2.8.3"
+navigationCompose = "2.8.3"
+roomRuntime = "2.6.1"
+roomCompiler = "2.6.1"
+roomKtx = "2.6.1"
+roomRxjava2 = "2.6.1"
+roomRxjava3 = "2.6.1"
+roomGuava = "2.6.1"
+roomTesting = "2.6.1"
+roomPaging = "2.6.1"
+runtimeLivedata = "1.7.4"
+workRuntimeKtx = "2.9.1"
+
+[libraries]
+accompanist-swiperefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanistSwiperefresh" }
+androidx-constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-navigation-compose-v273 = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "roomPaging" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "roomTesting" }
+androidx-room-guava = { module = "androidx.room:room-guava", version.ref = "roomGuava" }
+androidx-room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "roomRxjava3" }
+androidx-room-rxjava2 = { module = "androidx.room:room-rxjava2", version.ref = "roomRxjava2" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+coil-compose-v230 = { module = "io.coil-kt:coil-compose", version.ref = "coilComposeVersion" }
+coil-gif-v230 = { module = "io.coil-kt:coil-gif", version.ref = "coilGif" }
+compose = { module = "com.github.bumptech.glide:compose", version.ref = "compose" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterGson" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
